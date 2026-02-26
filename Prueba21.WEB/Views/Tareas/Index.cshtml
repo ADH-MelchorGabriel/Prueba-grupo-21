@@ -1,0 +1,33 @@
+﻿@model List<TareaEntity>
+
+<div class="row">
+	<div class="col-6">
+		<h2>Lista de tareas</h2>
+	</div>
+	<div class="col-6 text-end">
+		<a class="btn btn-primary" asp-controller="Tareas" asp-action="Nuevo" >Nuevo</a>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-12">
+		<table class="table table-striped">
+			<tr>
+				<td>Tarea</td>
+				<td>Descrípcion</td>
+				<td>Acciones</td>
+			</tr>
+			@foreach (var item in @Model)
+			{
+				<tr>
+					
+					<td>@item.Tarea</td>
+					<td>@item.Descripcion</td>
+					<td></td>
+				</tr>
+			}
+		</table>
+	</div>
+</div>
+
+
