@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{0E750010-5EEB-32E7-B5D4-E487FF628665}|Prueba21.WEB\\Prueba21.WEB.csproj|c:\\taurus repositorio\\prueba-grupo-21\\prueba21.web\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E750010-5EEB-32E7-B5D4-E487FF628665}|Prueba21.WEB\\Prueba21.WEB.csproj|solutionrelative:prueba21.web\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E750010-5EEB-32E7-B5D4-E487FF628665}|Prueba21.WEB\\Prueba21.WEB.csproj|c:\\taurus repositorio\\prueba-grupo-21\\prueba21.web\\views\\tareas\\modificar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E750010-5EEB-32E7-B5D4-E487FF628665}|Prueba21.WEB\\Prueba21.WEB.csproj|solutionrelative:prueba21.web\\views\\tareas\\modificar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E750010-5EEB-32E7-B5D4-E487FF628665}|Prueba21.WEB\\Prueba21.WEB.csproj|c:\\taurus repositorio\\prueba-grupo-21\\prueba21.web\\views\\tareas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E750010-5EEB-32E7-B5D4-E487FF628665}|Prueba21.WEB\\Prueba21.WEB.csproj|solutionrelative:prueba21.web\\views\\tareas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E750010-5EEB-32E7-B5D4-E487FF628665}|Prueba21.WEB\\Prueba21.WEB.csproj|c:\\taurus repositorio\\prueba-grupo-21\\prueba21.web\\views\\tareas\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E750010-5EEB-32E7-B5D4-E487FF628665}|Prueba21.WEB\\Prueba21.WEB.csproj|solutionrelative:prueba21.web\\views\\tareas\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 346,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +42,53 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Taurus Repositorio\\Prueba-grupo-21\\Prueba21.WEB\\Views\\Tareas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Prueba21.WEB\\Views\\Tareas\\Index.cshtml",
+              "ToolTip": "C:\\Taurus Repositorio\\Prueba-grupo-21\\Prueba21.WEB\\Views\\Tareas\\Index.cshtml",
+              "RelativeToolTip": "Prueba21.WEB\\Views\\Tareas\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T15:32:13.949Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Nuevo.cshtml",
+              "DocumentMoniker": "C:\\Taurus Repositorio\\Prueba-grupo-21\\Prueba21.WEB\\Views\\Tareas\\Nuevo.cshtml",
+              "RelativeDocumentMoniker": "Prueba21.WEB\\Views\\Tareas\\Nuevo.cshtml",
+              "ToolTip": "C:\\Taurus Repositorio\\Prueba-grupo-21\\Prueba21.WEB\\Views\\Tareas\\Nuevo.cshtml",
+              "RelativeToolTip": "Prueba21.WEB\\Views\\Tareas\\Nuevo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T15:46:03.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Modificar.cshtml",
+              "DocumentMoniker": "C:\\Taurus Repositorio\\Prueba-grupo-21\\Prueba21.WEB\\Views\\Tareas\\Modificar.cshtml",
+              "RelativeDocumentMoniker": "Prueba21.WEB\\Views\\Tareas\\Modificar.cshtml",
+              "ToolTip": "C:\\Taurus Repositorio\\Prueba-grupo-21\\Prueba21.WEB\\Views\\Tareas\\Modificar.cshtml",
+              "RelativeToolTip": "Prueba21.WEB\\Views\\Tareas\\Modificar.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T15:45:35.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TareasController.cs",
               "DocumentMoniker": "C:\\Taurus Repositorio\\Prueba-grupo-21\\Prueba21.WEB\\Controllers\\TareasController.cs",
               "RelativeDocumentMoniker": "Prueba21.WEB\\Controllers\\TareasController.cs",
               "ToolTip": "C:\\Taurus Repositorio\\Prueba-grupo-21\\Prueba21.WEB\\Controllers\\TareasController.cs",
               "RelativeToolTip": "Prueba21.WEB\\Controllers\\TareasController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA1wCQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwDoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T15:48:34.468Z",
               "EditorCaption": ""

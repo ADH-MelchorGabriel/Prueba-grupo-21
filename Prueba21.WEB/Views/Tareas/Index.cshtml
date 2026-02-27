@@ -23,7 +23,10 @@
 					
 					<td>@item.Tarea</td>
 					<td>@item.Descripcion</td>
-					<td></td>
+					<td>
+						<a class="btn btn-warning" asp-controller="Tareas" asp-action="Modificar" asp-route-id="@item.Id" >Modificar</a>
+						<a class="btn btn-danger" asp-controller="Tareas" asp-route-id="@item.Id" asp-action="Borrar"   >Borrar</a>
+					</td>
 				</tr>
 			}
 		</table>

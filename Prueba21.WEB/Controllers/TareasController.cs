@@ -39,5 +39,37 @@ namespace Prueba21.WEB.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
+        public IActionResult Modificar(int id)
+        {
+            var tarea = _dataContext.Tareas.Where(x => x.Id == id).FirstOrDefault();
+   
+            
+            return View(tarea);
+        }
+
+        [HttpPost]
+        public IActionResult Modificar(TareaEntity newObj)
+        {
+            var tarea = _dataContext.Tareas.Where(x => x.Id == newObj.Id).FirstOrDefault();
+            tarea.Tarea = newObj.Tarea;
+            tarea.Descripcion = newObj.Descripcion;
+            _dataContext.Tareas.Update(tarea);
+            _dataContext.SaveChanges();
+            return RedirectToAction("Index");
+
+        }
+
+        [HttpGet]
+        public IActionResult Borrar(int id)
+        {
+            var tarea = _dataContext.Tareas.Where(x => x.Id == id).FirstOrDefault();
+            // Select * from Tarea where id=1
+
+            _dataContext.Tareas.Remove(tarea);
+            _dataContext.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
     }
 }
